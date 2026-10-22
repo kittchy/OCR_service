@@ -1,5 +1,5 @@
 # Dockerfile
-FROM ubuntu:18.04  
+FROM ubuntu:25.10  
 RUN rm -rf /var/lib/apt/lists/* && apt-get update -y
 RUN apt-get install -y tesseract-ocr-eng \
     && export PATH="$PATH:/usr/bin/tesseract"
