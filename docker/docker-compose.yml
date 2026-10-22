@@ -11,7 +11,7 @@ x-mysql_commomn_env:
 
 services:
   db:
-    image: mysql:5.7
+    image: mysql:9.6
     container_name: mysql
     platform: linux/x86_64
     environment: *mysql_commomn_env
